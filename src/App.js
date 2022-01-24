@@ -17,8 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React (Deploy Test)
+          <div>BaseUrl : {config.baseURL}</div>
         </a>
-        <div>BaseUrl : {config.baseURL}</div>
       </header>
     </div>
   );
