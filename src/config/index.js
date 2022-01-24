@@ -1,6 +1,5 @@
-const env = process.env.REACT_APP_ENV;
-console.log(process.env);
-console.log(process.env.REACT_APP_ENV);
+const env = process.env.REACT_APP_ENV.trim();
+
 let config = {
   baseURL: "http://localhost-default/"
 }
