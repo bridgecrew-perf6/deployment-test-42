@@ -1,7 +1,7 @@
 const env = process.env.REACT_APP_ENV;
 
 let config = {
-  baseURL: "http://localhost/"
+  baseURL: "http://localhost-default/"
 }
 
 switch(env.toUpperCase()) {
